@@ -94,4 +94,4 @@ if(snakeX < box || snakeX > box*9.99 ||
  snake.unshift(newHead);
  }
 
-let game = setInterval(drawGame, 300);
+let game = setInterval(drawGame, 160);
